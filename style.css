@@ -1,8 +1,9 @@
 .jumbotron{
     min-height: 150px;
     margin: 0!important;
-    background-color: lightyellow !important;
+    background-color: lightgreen !important;
     border-radius: 0  !important;
+    border: 1px solid black;
 }
 .navbar{
     border-radius: 0  !important;
