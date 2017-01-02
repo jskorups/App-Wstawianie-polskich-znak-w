@@ -7,11 +7,17 @@ function fixing () {
 
     var str = document.getElementById("comment1").value;
     var mapObj = {
-        æ: "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
-        "¹": "DDDDDDDDDDDDDDDDDDDDDDD",
-        g: "GGGGGGGGGGGGGGGGGGGGGGGGG"
+          æ: "ć",
+          œ: "ś",
+        "³": "ł",
+        "¹": "ą",
+          Ÿ: "ź",
+          ê:  "ę",
+        "¿": "ż",
+          ñ: "ń",
+        "¯": "Ż"
     };
-    str = str.replace(/æ|¹|g/gi, function (matched) {
+    str = str.replace(/æ|œ|³|¹|Ÿ|ê|¿|ñ|¯/gi, function (matched) {
         return mapObj[matched];
     });
 

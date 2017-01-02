@@ -1,7 +1,7 @@
 .jumbotron{
     min-height: 150px;
     margin: 0!important;
-    background-color: palevioletred !important;
+    background-color: lightyellow !important;
     border-radius: 0  !important;
 }
 .navbar{
@@ -10,11 +10,11 @@
 }
 textarea{
     min-height:300px;
-
+    max-width: 500px;
 }
 body{
     background-color: powderblue;
-    font-family: ColaborateBoldRegular;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 .navbar-nav {
